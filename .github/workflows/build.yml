@@ -9,6 +9,10 @@ on:
       - 'v*'
   workflow_dispatch:
 
+# Releases need write permission to upload .dmg/.exe/.AppImage assets
+permissions:
+  contents: write
+
 jobs:
   build:
     strategy:
