@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokémon Cascadia — v0.1</title>
+  <style>
+    :root {
+      --bg: #0e0e10;
+      --fg: #e8e0d4;
+      --accent: #c4382a;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body {
+      height: 100%;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: 'Courier New', monospace;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      user-select: none;
+    }
+    h1 {
+      font-size: 14px;
+      letter-spacing: 0.25em;
+      margin-bottom: 12px;
+      color: var(--accent);
+      text-transform: uppercase;
+    }
+    #game-container {
+      border: 2px solid var(--fg);
+      box-shadow: 0 0 0 1px var(--bg), 0 8px 24px rgba(0,0,0,0.6);
+      image-rendering: pixelated;
+      image-rendering: crisp-edges;
+    }
+    #game-container canvas {
+      image-rendering: pixelated;
+      image-rendering: crisp-edges;
+      display: block;
+    }
+    .footer {
+      margin-top: 12px;
+      font-size: 10px;
+      opacity: 0.5;
+      letter-spacing: 0.1em;
+    }
+  </style>
+</head>
+<body>
+  <h1>Pokémon Cascadia — v0.1</h1>
+  <div id="game-container"></div>
+  <div class="footer">arrow keys / WASD · Z to interact (later) · ESC for menu (later)</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.80.1/dist/phaser.min.js"></script>
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>

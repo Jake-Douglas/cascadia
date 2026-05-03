@@ -1,0 +1,79 @@
+{
+  "name": "cascadia",
+  "version": "0.10.0",
+  "description": "Cross-platform monster-catching RPG set in Cascadia and the Foothills.",
+  "main": "desktop/main.js",
+  "author": "Jake Douglas",
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jake-Douglas/cascadia.git"
+  },
+  "scripts": {
+    "dev:server": "python3 -m http.server 8000",
+    "electron-dev": "CASCADIA_DEV_URL=http://localhost:8000 electron .",
+    "electron": "electron .",
+    "build": "electron-builder -mwl",
+    "build:mac": "electron-builder --mac",
+    "build:win": "electron-builder --win",
+    "build:linux": "electron-builder --linux"
+  },
+  "dependencies": {
+    "electron-updater": "^6.3.0"
+  },
+  "devDependencies": {
+    "electron": "^31.0.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.cascadia.game",
+    "productName": "Cascadia",
+    "files": [
+      "index.html",
+      "js/**/*",
+      "assets/**/*",
+      "desktop/**/*",
+      "node_modules/**/*"
+    ],
+    "directories": {
+      "buildResources": "desktop/build-resources",
+      "output": "dist"
+    },
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "Jake-Douglas",
+        "repo": "cascadia",
+        "private": true
+      }
+    ],
+    "mac": {
+      "target": [
+        { "target": "dmg", "arch": ["arm64", "x64"] }
+      ],
+      "category": "public.app-category.games",
+      "icon": "desktop/build-resources/icon.icns",
+      "identity": null
+    },
+    "win": {
+      "target": [
+        { "target": "nsis", "arch": ["x64"] }
+      ],
+      "icon": "desktop/build-resources/icon.ico"
+    },
+    "linux": {
+      "target": [
+        { "target": "AppImage", "arch": ["x64"] }
+      ],
+      "icon": "desktop/build-resources/icon.png",
+      "category": "Game"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    }
+  }
+}

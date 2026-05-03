@@ -1,0 +1,172 @@
+{
+  "id": "sludge_bomb",
+  "displayName": "SLUDGEBOMB",
+  "sheet": "PRAS- Sludge Bomb",
+  "cellSize": 192,
+  "cellsPerRow": 5,
+  "fps": 20,
+  "frames": [
+    {
+      "duration": 1,
+      "cels": [
+        {
+          "cel": 0,
+          "focus": "screen",
+          "x": 173,
+          "y": 199,
+          "scale": 1.0,
+          "rotation": 0,
+          "alpha": 0.21568627450980393,
+          "blend": "add",
+          "flip": false
+        }
+      ]
+    },
+    {
+      "duration": 1,
+      "cels": [
+        {
+          "cel": 1,
+          "focus": "screen",
+          "x": 172,
+          "y": 199,
+          "scale": 1.0,
+          "rotation": 0,
+          "alpha": 0.6078431372549019,
+          "blend": "add",
+          "flip": false
+        }
+      ]
+    },
+    {
+      "duration": 1,
+      "cels": [
+        {
+          "cel": 2,
+          "focus": "screen",
+          "x": 151.0,
+          "y": 197.0,
+          "scale": 1.0,
+          "rotation": 0,
+          "alpha": 1.0,
+          "blend": "add",
+          "flip": false
+        }
+      ]
+    },
+    {
+      "duration": 1,
+      "cels": [
+        {
+          "cel": 3,
+          "focus": "screen",
+          "x": 184.2962962962963,
+          "y": 187.14814814814812,
+          "scale": 1.0,
+          "rotation": 0,
+          "alpha": 1.0,
+          "blend": "add",
+          "flip": false
+        }
+      ]
+    },
+    {
+      "duration": 1,
+      "cels": [
+        {
+          "cel": 0,
+          "focus": "screen",
+          "x": 203.48148148148147,
+          "y": 173.07407407407408,
+          "scale": 1.0,
+          "rotation": 0,
+          "alpha": 1.0,
+          "blend": "add",
+          "flip": false
+        }
+      ]
+    },
+    {
+      "duration": 1,
+      "cels": [
+        {
+          "cel": 1,
+          "focus": "screen",
+          "x": 70.0,
+          "y": [
+            384,
+            96,
+            100,
+            0,
+            0,
+            0,
+            1,
+            -12,
+            255,
+            null,
+            null,
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "scale": 1.0,
+          "rotation": 0,
+          "alpha": 1.0,
+          "blend": "add",
+          "flip": false
+        }
+      ]
+    },
+    {
+      "duration": 1,
+      "cels": [
+        {
+          "cel": 2,
+          "focus": "screen",
+          "x": 244.25925925925924,
+          "y": 145.55555555555557,
+          "scale": 1.0,
+          "rotation": 0,
+          "alpha": 1.0,
+          "blend": "add",
+          "flip": false
+        }
+      ]
+    },
+    {
+      "duration": 1,
+      "cels": [
+        {
+          "cel": 3,
+          "focus": "screen",
+          "x": 265.85185185185185,
+          "y": 132.11111111111111,
+          "scale": 1.0,
+          "rotation": 0,
+          "alpha": 1.0,
+          "blend": "add",
+          "flip": false
+        }
+      ]
+    },
+    {
+      "duration": 1,
+      "cels": [
+        {
+          "cel": 0,
+          "focus": "screen",
+          "x": 289.0,
+          "y": 
