@@ -1,6 +1,6 @@
 {
   "name": "cascadia",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "description": "Cross-platform monster-catching RPG set in Cascadia and the Foothills.",
   "main": "desktop/main.js",
   "author": "Cascadia Project",
