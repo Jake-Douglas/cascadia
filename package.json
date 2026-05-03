@@ -3,7 +3,7 @@
   "version": "0.10.0",
   "description": "Cross-platform monster-catching RPG set in Cascadia and the Foothills.",
   "main": "desktop/main.js",
-  "author": "Jake Douglas",
+  "author": "Cascadia Project",
   "license": "UNLICENSED",
   "private": true,
   "repository": {
